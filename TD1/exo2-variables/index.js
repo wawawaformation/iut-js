@@ -1,3 +1,4 @@
+/*
 var prenom = "georges" //on ne l'utilise plus
 const prenom2 = 'georgette' //constante
 let prenom3 = 'jean' //variable
@@ -24,3 +25,14 @@ console.log(a)
 console.log('Bonjour ' + prenom);
 
 console.log('Bonjour  ${prenom} . Comment ça va ?')
+
+*/
+
+let totalLivres = 500
+totalLivres += 50
+totalLivres -= 10
+totalLivres += 5
+console.log('Total de livres : '  + totalLivres);
+
+const affichageTotalLivres = 'Notre bibliothèque possède ' + totalLivres+ ' livres'
+console.log(affichageTotalLivres);
