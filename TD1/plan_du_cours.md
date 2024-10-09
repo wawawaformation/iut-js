@@ -1,17 +1,17 @@
 # TD 1 : 1h30
 ## Rappel
 ### Les variables
-1. Où écrire le javascript
+1. Où écrire le javascript : 5min
     - Dans le HTML -> dans le header, à la fin du body, defer
     - Dans un script
     - les commentaires
-1. Les variables
+1. Les variables : 15 min
     - Déclaration d'une variable (let, const et var)
     - console.log
     - Les types de bases : string, number, boolean, typeof
     - les opérations sur number : +, -, *, /, %
     - la concaténation : +, template literals
-    - Exercice (10 minutes)
+    - Exercice (5 minutes)
         Vous gérez une bibliothèque qui contient 500 livres. Vous décidez de faire les opérations suivantes :
             acheter 50 livres de plus ; 
             en jeter 10 ;
@@ -30,12 +30,12 @@
             Avec TOTAL qui sera remplacé par le contenu de la variable totalLivres.
 
         4. Affichez cette phrase grâce à l’instruction console.log.
-1. Les objets 
+1. Les objets : 15 min
     - De quoi parle t'on ?
     - Déclarer un objet
     - Ajouter une propriété
     - Accéder à une propriété
-    - Exercice (10 minutes)
+    - Exercice (5 minutes)
         Vous êtes chargé de la maintenance d’une borne automatique qui permet de récupérer son billet de cinéma. Vous devez préparer la sortie du prochain film Batman, et faire en sorte que les utilisateurs puissent récupérer un billet pour ce nouveau film.
         Un ticket de cinéma a plusieurs propriétés : un nom de film, un prix, un numéro de salle.
 
@@ -51,7 +51,7 @@
             Créez une variable texteAffichage qui contient cette phrase, avec NOM, NOMDEFILM et NUMERODELASALLE remplacés par leur vraie valeur.
 
         4. Vérifiez le résultat avec un console.log. 
-1. Les tableaux / listes
+1. Les tableaux / listes : 15 min
     - De quoi parle t'on ?
     - Déclarer un tableau
     - Accéder à un élémenter du tableau
@@ -61,7 +61,7 @@
         - pop()
         - split()
     - MDN : la doc
-    - Exercice (10 min):
+    - Exercice (5 min):
         Vous organisez une soirée avec des amis. Une bonne soirée, c’est souvent une bonne musique ! Mais pour cela, vous devez vous organiser.
         
         1. Déclarez un tableau playlist qui contiendra trois de vos morceaux préférés.
@@ -71,26 +71,26 @@
         5. Malheureusement, certains ne sont pas d’accord avec le dernier morceau ajouté. Il va falloir faire du tri ! 😱
         Supprimez le dernier morceau ajouté à votre collection.
 
-### Les conditions
+### Les conditions  : 15 min
 - Qu'est-ce qu'une condition ?
 - Les opérateurs de comparaison
 - la structure if / else
 - le switch case
-- Exercice (10 min) :
+- Exercice (5 min) :
     Vous utiliserez la function prompt qui permet de récupérer une saisie de l'utilisateur.
     1. Demandez l'age de l'utilisateur
     2. créer un programme qui indique si l'utilisateur peut passer son permis, la conduite accompagnée ou utiliser le bus
     1. dans un autre programme, déclarer une variable couleur.
     2. En utilisant une structure switch / case le programme indique si c'est une couleur chaude ou une couleur froide
 
-### Les boucles
+### Les boucles : 15 min
 - la boucle for
 - la boucle while
 - parcours d'un tableau avec la methode for of
-- Exercice (10 minutes) :
+- Exercice (5 minutes) :
     Ecrivez un programme qui demande une phrase à copier, le nombre d'occurences voulu et qui écrit la punition à notre place
 
-### Le functions
+### Le functions : 15 min
 - de quoi parle t'on ?
 - prototype d'une fonction
 - une fonction sauvegardée dans une variable
