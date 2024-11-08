@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const sujets = ["Le succès", "La persévérance", "L'échec", "Le courage", "L'apprentissage"]
+        const verbes = ["est", "vient de", "représente", "encourage à", "se manifeste dans"]
+        const complements = ["l'effort constant", "les petits pas", "le dépassement de soi", "la prise de risque", "la résilience"]
+
+        function entierAleatoire(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function itemAleatoire(myArray){
+            const max = myArray.length - 1;
+            const min = 0;
+
+            const item = myArray[(entierAleatoire(min, max))]
+            return item
+        }
+
+       function genererCitation()
+       {
+        const sujet = itemAleatoire(sujets)
+        const verbe = itemAleatoire(verbes)
+        const complement = itemAleatoire(complements)
+
+        return sujet + ' ' + verbe + ' ' + complement
+       }
+       console.log(genererCitation())
+
+        
+
+
+    </script>
+</body>
+
+</html>
