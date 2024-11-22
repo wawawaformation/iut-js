@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcul d'IMC | Santé</title>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+    <div id="burger">
+        <svg xmlns="http://www.w3.org/2000/svg"  class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+    </div>
+    <header id="header">
+        <a href="">
+        <h1 class="flex align-center">
+            
+                <span id="logo">
+
+                </span>
+                Santé !
+            
+        </h1>
+    </a>
+        <nav>
+            <ul class="menu menu-principal">
+                <li class="item"><a href="" data-short="Rubrique 1">Une première rubrique</a></li>
+                <li class="item"><a href=""  data-short="Rubrique 2">Une deuxième rubrique</a></li>
+                <li class="item"><a href=""  data-short="Rubrique 3">Une troisème rubrique</a></li>
+                <li class="item"><a href=""  data-short="Rubrique 4">Une quatrième rubrique</a></li>
+                <li class="item"><a href=""  data-short="Rubrique 5">Une cinquième rubrique</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main id="main" class="container">
+        <h2>Calcul de votre IMC</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia voluptas tempora ex perferendis ab aliquid
+            facilis in praesentium ut nostrum, illo consequatur molestias modi nulla fugiat reprehenderit. Expedita,
+            quos optio?
+        </p>
+
+        <form action="">
+            <div class="fields">
+                <div class="field taille">
+                    <label for="taille">Votre taille (en cm)</label><br>
+                    <input type="number" name="taille" id="taille">
+                </div>
+                <div class="field poids">
+                    <label for="poids">Votre poids (en kg)</label><br>
+                    <input type="number" name="poids" id="poids">
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Calculer">
+            </div>
+        </form>
+
+    </main>
+    <footer id="footer">
+
+    </footer>
+    <script src="public/js/calcul-imc.js"></script>
+</body>
+
+</html>
