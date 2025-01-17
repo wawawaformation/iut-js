@@ -28,7 +28,7 @@ Réaliser une application qui permettra de consulter la météo de quelques vill
 ## Les étapes
 Vous travaillerez par groupe de 3 ou 4
 1. Faire des recherches sur l'API (ex : https://www.prevision-meteo.ch/services/json/angouleme). Comment afficher l'enseillement (image), la température, ..., d'ajourd'hui, de demain, d'après demain.
-1. Me propose un wireframe
+1. Me proposer un wireframe/maquette
 1. Réaliser le formulaire (liste d'option) qui permettra de récuperer la ville voulue au format sans majuscule et sans accent
 1. En décontextualisant tester la récupération de données avec fetch() puis la modification du dom pour dévélepper le HTML
 1. Assembler le tout
